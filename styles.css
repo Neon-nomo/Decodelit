@@ -1,0 +1,275 @@
+
+#title .container-fluid {padding: 7% 15%; margin-bottom:0; }
+
+.title {
+  color: #FBF5F3;
+  font-family: 'Yeseva One', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+.title:hover {
+  color: #31303A;
+  transition: all .5s linear;
+}
+
+.one {
+  font-family: 'Yeseva One', cursive;
+  color: #FBF5F3;
+  font-weight: 300;
+  font-size: 30px;
+  letter-spacing: 0.2px;
+}
+
+.one:hover {
+  color: #77BFA3;
+  font-family: 'Yeseva One', cursive;
+  transition: all .5s linear;
+}
+
+p {
+  font-family: 'Ubuntu Mono', monospace;
+  color: #FBF5F3;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#title {
+  background-color: #77BFA3;
+}
+
+
+/* Navigation bar */
+.navbar-brand {
+  font-family: 'Yeseva One', cursive;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navbar {
+  font-family: 'Ubuntu Mono', monospace;
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+/* title image */
+.iphone {
+  width: 109%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+
+@media (max-width: 1028px) {
+  .iphone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .container-fluid {
+    text-align: center;
+  }
+}
+
+.fas {
+  color: #FBF5F3;
+  font-size: 60px;
+  height: 70px;
+  margin-top: 70px;
+  margin-bottom: 1rem;
+}
+
+.fas:hover {
+  color: #77BFA3;
+  transition: all .5s linear;
+}
+
+.features {
+  background-color: #a1c7b9;
+  padding: 5% 2%;
+  position: relative;
+  z-index: 1;
+}
+
+.row {
+  padding-bottom: 90px;
+  padding-top: 90px;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+  font-weight: 900;
+}
+
+.col-lg-4 {
+  text-align: center;
+  padding: 0 100px 0 100px;
+  font-weight: lighter;
+}
+
+.feature-text {
+  color: #FBF5F3;
+}
+
+/* testimonial section */
+.testimonials {
+  text-align: center;
+  background-color: #fBF5F3;
+}
+
+.img1 {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.img2 {
+  width: 15%;
+  height: 150px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.press {
+  background-color: #fBF5F3;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-title2 {
+  font-family: 'Yeseva One', cursive;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #a1c7b9;
+}
+
+.carousel-title {
+  font-family: 'Yeseva One', cursive;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #a1c7b9;
+}
+
+.testimonial-person {
+  font-family: 'Anonymous Pro', monospace;
+}
+
+.download-button {
+  font-weight: bold;
+  font-family: 'Ubuntu Mono', monospace;
+  margin-top: 2em;
+  margin: 5% 3% 5% 0;
+  border-radius: 2px;
+  letter-spacing: 0.2px;
+  color: #FBF5F3;
+}
+
+/* Pricing */
+#pricing {
+  background-color: #77BFA3;
+  padding: 50px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2% !important;
+}
+
+.Pricing-title {
+  font-family: 'Yeseva One', cursive;
+  font-weight: 500;
+  font-size: 3.5rem;
+  color: #fBF5F3;
+  margin-bottom: 1%;
+}
+
+.prices {color: #FBF5F3;}
+.header-text {color: #FBF5F3;}
+
+ .card {
+  background-color: #a1c7b9 !important;
+}
+
+.btn {
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+/* call to action */
+#cta {
+  font-family: 'Yeseva One', cursive;
+  text-align: center;
+  background-color: #a1c7b9;
+  padding: 7% 15%;
+}
+
+.cta-text {
+  font-weight: 500;
+  font-size: 3.5rem;
+  color: #FBF5F3;
+  line-height: 1.5;
+}
+
+/* footer */
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #FBF5F3;
+}
+
+.footer-text {
+  color: grey;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 900;
+}
+
+/* .fab {margin-left: 15px; padding-top: 20px; padding-bottom: 25px; color: #a1c7b9;}
+.far {margin-left: 15px; padding-top: 20px; padding-bottom: 25px; color: #a1c7b9;} */
+.pricing-sum {
+  color: #fBF5F3;
+}
+
+.col-lg-6 {
+  bottom: 20px;
+}
+
+.feature-text {
+  font-size: 19px;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #31303A;
+}
+
+/* notes */
+/* 1. 0DAB76 2. E57A44 3.EF5D60 4. (grey E0E0E2) 5. C2E812 6. (opal 9AC6C5 apricot: FCC8B2/ yellow crayola: F9E784)
+snow: FBF5F3 + mid-grn yellow: A5B452/ eton blue: 77BFA3/ dark sea green: 7BAE7F (GREY: 696969) perfect pink: #cfb7b6*/
+/* tick: <i class="fas fa-check-circle"></i>
+library icon: <i class="fas fa-book-reader"></i>
+heart: <i class="fas fa-heart"></i> */
